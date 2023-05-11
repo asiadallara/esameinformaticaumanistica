@@ -1,0 +1,136 @@
+body {
+    padding: 0px !important;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif; <!-- Google fonts -->
+    font-weight: 400;
+    text-align: center ;
+}
+
+
+html {
+    font-family: "Georgia", serif;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+#homeimg {
+        height: 100px;
+        width: auto;
+}
+
+img {
+    height: 20%;
+    width: auto;
+    max-width: 70%;
+    min-height:10%;
+    }    
+
+header {
+    background-color:#E50C0C;
+    color:#fff
+}
+
+header, section {
+    padding: 5% 5% 0px 5%; 
+}
+
+.whitelink {
+    color: #fff;
+    opacity: 0.8;
+    transition: opacity .25s ease-out;
+}
+
+.whitelink: over {
+    opacity: 1.0;
+}
+        
+.active {
+    color:#E50C0C;
+    background-color: #fff ;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.nounderline {
+    text-decoration: none;
+    padding: 10px 10px 0px 10px;
+}
+
+.btn {
+    color: white;
+    background-color: #E50C0C;
+    padding: 0.75cm 0.75cm 0.75cm 0.75cm;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color:#fff;
+    color:#E50C0C;
+}
+
+.list-group {
+    color:#E50C0C;
+    background-color: #fff ;
+    list-style: none;
+    font-weight: 700;
+    list-style-type: none;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-left: 45%;
+    padding-right: 45%;
+    text-align: center; /* orizzontale */
+    line-height: 50px; /* verticale */
+    max-width: 200px;
+
+}
+
+.button {
+        background-color:#E50C0C;
+        border: none;
+        color: white;
+        padding: 14px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        opacity: 0.8;
+      }
+
+.button:hover {
+        background-color:#E50C0C;
+        color:#fff;
+        opacity: 1.0;
+    }
+    .siteFooterBar {
+        position: fixed;
+        bottom: 0;
+        padding-top: 0px;
+        padding-right: 60%;
+        width: 100%;
+        height: 78px;
+        color: black;
+        background: #fff;
+    }
+    
+    .content {
+        display: block;
+        padding: 10px;
+        margin: 0px auto;
+        text-align: center;
+        font-family: 25px "Georgia", serif;
+        font-size: 14px;
+        width:250px;
+    }
+    .foot {
+     display:left;
+        line-height: 70px;
+    }
+    .content img {
+     height:50px;
+        width: 50px;
+        float:left;
+    }
