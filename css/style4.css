@@ -113,6 +113,10 @@ header, section {
     position: fixed;  
 }
 
+.point {
+    list-style-type: none;
+}
+
 .foot {
  display:left;
     line-height: 70px;
