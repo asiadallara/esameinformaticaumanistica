@@ -7,7 +7,10 @@ body {
     font-weight: 400;
     text-align: center ;
 }
-
+h3 {
+    color: #E50C0C;
+    size: bold;
+}
 
 html {
     font-family: "Georgia", serif;
@@ -35,7 +38,7 @@ header {
 }
 
 header, section {
-    padding: 5% 5% 0px 5%; 
+    padding: 0px 5% 0px 5%; 
 }
 
 .whitelink {
@@ -116,42 +119,33 @@ header, section {
     width: 50px;
     float:left;
 }
-
-p,
-dt {
-    font: size 400px;
-}
-
-dl,
-dd {
-    font-size: 400;
-}
-
-dd {
-    margin-bottom: 20px;
-}
-dl ul li {
-    color: #E50C0C;
-    counter-reset:lista;
-    margin-left:0;
-    padding-left:0;
-    list-style:none;
+.documentazione {
+    color:#E50C0C;
+    text-decoration: none;
     font-size:large;
     font-weight: bold;
-    text-align:center;
-}
-
-.col-sm-3 {
-    color:black;
-    position: center;
-    margin-left:0;
-    padding-left:0;
-    font-size:large;
-    font-weight: bold;
-
 }
 
 .wireframe {
     width: 400px; 
     height: auto;
 }
+.architettura {
+    width: 500px; 
+    height: auto;
+}
+.point {
+    list-style-type: none;
+}
+ul li {
+    color: #E50C0C;
+    counter-reset:lista;
+    margin-left:0;
+    padding-left:0;
+    list-style-type:none;
+    font-size:large;
+    font-weight: bold;
+    text-align:center;
+
+}
+
