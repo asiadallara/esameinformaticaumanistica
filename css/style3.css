@@ -148,13 +148,14 @@ header, section {
 }
 
 .content {
-    display: block;
-    padding: 10px;
-    margin: 0px auto;
-    text-align: center;
-    font-family: 25px "Georgia", serif;
-    font-size: 14px;
-    width:250px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color:#E50C0C;
+    text-align:left;
+    font-size: 15px; 
+    position: fixed;  
 }
 .foot {
  display:left;
