@@ -50,7 +50,7 @@ header, section {
 .active {
     color:#E50C0C;
     background-color: #fff ;
-    border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px ;
 }
 
 .nounderline {
@@ -150,13 +150,11 @@ header, section {
     position: fixed;  
 }
 .foot {
- display:left;
+    display:left;
     line-height: 70px;
 }
 .content img {
- height:50px;
+    height:50px;
     width: 50px;
     float:left;
 }
-
-   
