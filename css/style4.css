@@ -113,10 +113,6 @@ header, section {
     position: fixed;  
 }
 
-.point {
-    list-style-type: none;
-}
-
 .foot {
  display:left;
     line-height: 70px;
@@ -132,4 +128,42 @@ header, section {
     text-decoration: none;
     font-size:large;
     font-weight: bold;
+}
+
+.wireframe {
+    width: 200px; 
+    height: 250px;
+}
+
+.architettura {
+    width: 500px; 
+    height: auto;
+}
+
+.point {
+    list-style-type: none;
+}
+
+ul li {
+    color: #E50C0C;
+    counter-reset:lista;
+    margin-left:0;
+    padding-left:0;
+    list-style-type:none;
+    font-size:large;
+    font-weight: bold;
+    text-align:center;
+
+}
+
+.risultati {
+    height:300px;
+    width: 400px;
+    float: center;
+}
+
+.risultati2 {
+    height:550px;
+    width: 550px;
+    float: center;
 }
